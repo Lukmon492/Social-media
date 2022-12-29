@@ -237,6 +237,45 @@ main .container .left .profile {
   gap: 1rem;
   margin-bottom: 1rem;
 }
-.left .notifications-popup .small {
+.left .notifications-popup small {
   display: block;
+}
+
+/* =============== MIDDLE ============== */
+.middle .stories {
+  gap: 0.5rem;
+  display: flex;
+  height: 12rem;
+  justify-content: space-between;
+}
+.middle .stories .story {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: var(--card-padding);
+  justify-content: space-between;
+  border-radius: var(--card-border-radius);
+  color: white;
+  font-size: 0.75rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.middle .stories .story:nth-child(1) {
+  background: url("/images/story-1.jpg") no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(2) {
+  background: url("/images/story-2.jpg") no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(3) {
+  background: url("/images/story-3.jpg") no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(4) {
+  background: url("/images/story-4.jpg") no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(5) {
+  background: url("/images/story-5.jpg") no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(6) {
+  background: url("/images/story-6.jpg") no-repeat center center/cover;
 }
